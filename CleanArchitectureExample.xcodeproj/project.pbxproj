@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		E5B68D452246E06700A0C257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D442246E06700A0C257 /* AppDelegate.swift */; };
-		E5B68D472246E06700A0C257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D462246E06700A0C257 /* ViewController.swift */; };
 		E5B68D4A2246E06700A0C257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B68D482246E06700A0C257 /* Main.storyboard */; };
 		E5B68D4C2246E06800A0C257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B68D4B2246E06800A0C257 /* Assets.xcassets */; };
 		E5B68D4F2246E06800A0C257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B68D4D2246E06800A0C257 /* LaunchScreen.storyboard */; };
+		E5B68D592246E18A00A0C257 /* LoginRequestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D582246E18A00A0C257 /* LoginRequestUseCase.swift */; };
+		E5B68D5B2246E20C00A0C257 /* LoginRequestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D5A2246E20C00A0C257 /* LoginRequestInteractor.swift */; };
+		E5B68D5D2246E22200A0C257 /* LoginRequestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D5C2246E22200A0C257 /* LoginRequestPresenter.swift */; };
+		E5B68D5F2246E23F00A0C257 /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D5E2246E23F00A0C257 /* LoginRequestViewController.swift */; };
+		E5B68D622246E2BE00A0C257 /* LoginInputInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D612246E2BE00A0C257 /* LoginInputInfo.swift */; };
+		E5B68D642246E31A00A0C257 /* LoginRequestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D632246E31A00A0C257 /* LoginRequestItem.swift */; };
+		E5B68D662246E62B00A0C257 /* LoginRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D652246E62B00A0C257 /* LoginRequestViewModel.swift */; };
+		E5B68D692246E66B00A0C257 /* UIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */; };
+		E5B68D6B2246E8D900A0C257 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D6A2246E8D900A0C257 /* UILabel.swift */; };
+		E5B68D6F2246EBEF00A0C257 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D6E2246EBEF00A0C257 /* RootRouter.swift */; };
+		E5B68D712246ECD600A0C257 /* RootRouterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D702246ECD600A0C257 /* RootRouterState.swift */; };
+		E5B68D742246FCA800A0C257 /* TextLabelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D732246FCA800A0C257 /* TextLabelConfig.swift */; };
+		E5B68D762246FCB000A0C257 /* ButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D752246FCB000A0C257 /* ButtonConfig.swift */; };
+		E5B68D782246FCE200A0C257 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D772246FCE200A0C257 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5B68D412246E06700A0C257 /* CleanArchitectureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitectureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B68D442246E06700A0C257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5B68D462246E06700A0C257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5B68D492246E06700A0C257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B68D4B2246E06800A0C257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B68D4E2246E06800A0C257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5B68D502246E06800A0C257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B68D582246E18A00A0C257 /* LoginRequestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestUseCase.swift; sourceTree = "<group>"; };
+		E5B68D5A2246E20C00A0C257 /* LoginRequestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestInteractor.swift; sourceTree = "<group>"; };
+		E5B68D5C2246E22200A0C257 /* LoginRequestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestPresenter.swift; sourceTree = "<group>"; };
+		E5B68D5E2246E23F00A0C257 /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
+		E5B68D612246E2BE00A0C257 /* LoginInputInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputInfo.swift; sourceTree = "<group>"; };
+		E5B68D632246E31A00A0C257 /* LoginRequestItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestItem.swift; sourceTree = "<group>"; };
+		E5B68D652246E62B00A0C257 /* LoginRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewModel.swift; sourceTree = "<group>"; };
+		E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoard.swift; sourceTree = "<group>"; };
+		E5B68D6A2246E8D900A0C257 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		E5B68D6E2246EBEF00A0C257 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		E5B68D702246ECD600A0C257 /* RootRouterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterState.swift; sourceTree = "<group>"; };
+		E5B68D732246FCA800A0C257 /* TextLabelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabelConfig.swift; sourceTree = "<group>"; };
+		E5B68D752246FCB000A0C257 /* ButtonConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfig.swift; sourceTree = "<group>"; };
+		E5B68D772246FCE200A0C257 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,83 @@
 		E5B68D432246E06700A0C257 /* CleanArchitectureExample */ = {
 			isa = PBXGroup;
 			children = (
+				E5B68D672246E65C00A0C257 /* Extensions */,
+				E5B68D562246E12A00A0C257 /* UseCase */,
+				E5B68D6C2246EBC500A0C257 /* Routers */,
 				E5B68D442246E06700A0C257 /* AppDelegate.swift */,
-				E5B68D462246E06700A0C257 /* ViewController.swift */,
 				E5B68D482246E06700A0C257 /* Main.storyboard */,
 				E5B68D4B2246E06800A0C257 /* Assets.xcassets */,
 				E5B68D4D2246E06800A0C257 /* LaunchScreen.storyboard */,
 				E5B68D502246E06800A0C257 /* Info.plist */,
 			);
 			path = CleanArchitectureExample;
+			sourceTree = "<group>";
+		};
+		E5B68D562246E12A00A0C257 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D722246FC9300A0C257 /* UIElementConfigurations */,
+				E5B68D572246E14A00A0C257 /* LoginUseCase */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E5B68D572246E14A00A0C257 /* LoginUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D602246E2A500A0C257 /* Model */,
+				E5B68D582246E18A00A0C257 /* LoginRequestUseCase.swift */,
+				E5B68D5A2246E20C00A0C257 /* LoginRequestInteractor.swift */,
+				E5B68D5C2246E22200A0C257 /* LoginRequestPresenter.swift */,
+				E5B68D5E2246E23F00A0C257 /* LoginRequestViewController.swift */,
+			);
+			path = LoginUseCase;
+			sourceTree = "<group>";
+		};
+		E5B68D602246E2A500A0C257 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D612246E2BE00A0C257 /* LoginInputInfo.swift */,
+				E5B68D632246E31A00A0C257 /* LoginRequestItem.swift */,
+				E5B68D652246E62B00A0C257 /* LoginRequestViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5B68D672246E65C00A0C257 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */,
+				E5B68D6A2246E8D900A0C257 /* UILabel.swift */,
+				E5B68D772246FCE200A0C257 /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5B68D6C2246EBC500A0C257 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D6D2246EBD600A0C257 /* RootRouter */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		E5B68D6D2246EBD600A0C257 /* RootRouter */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D6E2246EBEF00A0C257 /* RootRouter.swift */,
+				E5B68D702246ECD600A0C257 /* RootRouterState.swift */,
+			);
+			path = RootRouter;
+			sourceTree = "<group>";
+		};
+		E5B68D722246FC9300A0C257 /* UIElementConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				E5B68D732246FCA800A0C257 /* TextLabelConfig.swift */,
+				E5B68D752246FCB000A0C257 /* ButtonConfig.swift */,
+			);
+			path = UIElementConfigurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B68D472246E06700A0C257 /* ViewController.swift in Sources */,
+				E5B68D6B2246E8D900A0C257 /* UILabel.swift in Sources */,
+				E5B68D692246E66B00A0C257 /* UIStoryBoard.swift in Sources */,
+				E5B68D5D2246E22200A0C257 /* LoginRequestPresenter.swift in Sources */,
+				E5B68D5B2246E20C00A0C257 /* LoginRequestInteractor.swift in Sources */,
+				E5B68D642246E31A00A0C257 /* LoginRequestItem.swift in Sources */,
+				E5B68D782246FCE200A0C257 /* UIButton.swift in Sources */,
+				E5B68D762246FCB000A0C257 /* ButtonConfig.swift in Sources */,
+				E5B68D5F2246E23F00A0C257 /* LoginRequestViewController.swift in Sources */,
+				E5B68D712246ECD600A0C257 /* RootRouterState.swift in Sources */,
+				E5B68D662246E62B00A0C257 /* LoginRequestViewModel.swift in Sources */,
+				E5B68D742246FCA800A0C257 /* TextLabelConfig.swift in Sources */,
+				E5B68D622246E2BE00A0C257 /* LoginInputInfo.swift in Sources */,
+				E5B68D6F2246EBEF00A0C257 /* RootRouter.swift in Sources */,
 				E5B68D452246E06700A0C257 /* AppDelegate.swift in Sources */,
+				E5B68D592246E18A00A0C257 /* LoginRequestUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +390,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VJ8753494T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CleanArchitectureExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PiyushSharma.CleanArchitectureExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VJ8753494T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CleanArchitectureExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +420,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PiyushSharma.CleanArchitectureExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

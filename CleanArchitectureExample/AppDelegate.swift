@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var mainFlowController: IRouter?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let w = UIWindow(frame: UIScreen.main.bounds)
+        window = w
+        
+        mainFlowController = RootRouter(window: w)
+        mainFlowController?.start()
+        
         return true
     }
 
