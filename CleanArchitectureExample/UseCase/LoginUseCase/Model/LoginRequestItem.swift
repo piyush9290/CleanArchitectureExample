@@ -12,4 +12,5 @@ typealias Closure<T> = (T) -> Void
 
 struct LoginRequestItem {
     let loginCompletion: Closure<Bool>?
+    let loginServices: Login
 }

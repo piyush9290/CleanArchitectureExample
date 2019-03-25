@@ -36,13 +36,15 @@ final class RootRouter: IRouter {
     }
     
     private var createLoginItem: LoginRequestItem {
-        return LoginRequestItem { (result) in
+        let completion: Closure<Bool> = { (result) in
             if result {
                 debugPrint("Login Successful")
             } else {
                 debugPrint("Wrong Login info")
             }
         }
+        return LoginRequestItem(loginCompletion: completion,
+                                loginServices: RequestAPI())
     }
     
 }

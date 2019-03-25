@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E534DF6622486CCA00A56B2E /* SampleWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E534DF6522486CCA00A56B2E /* SampleWebServices.swift */; };
+		E534DF6822486E8B00A56B2E /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E534DF6722486E8B00A56B2E /* UIStoryboard.swift */; };
 		E5B68D452246E06700A0C257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D442246E06700A0C257 /* AppDelegate.swift */; };
 		E5B68D4A2246E06700A0C257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B68D482246E06700A0C257 /* Main.storyboard */; };
 		E5B68D4C2246E06800A0C257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B68D4B2246E06800A0C257 /* Assets.xcassets */; };
@@ -18,7 +20,6 @@
 		E5B68D622246E2BE00A0C257 /* LoginInputInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D612246E2BE00A0C257 /* LoginInputInfo.swift */; };
 		E5B68D642246E31A00A0C257 /* LoginRequestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D632246E31A00A0C257 /* LoginRequestItem.swift */; };
 		E5B68D662246E62B00A0C257 /* LoginRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D652246E62B00A0C257 /* LoginRequestViewModel.swift */; };
-		E5B68D692246E66B00A0C257 /* UIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */; };
 		E5B68D6B2246E8D900A0C257 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D6A2246E8D900A0C257 /* UILabel.swift */; };
 		E5B68D6F2246EBEF00A0C257 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D6E2246EBEF00A0C257 /* RootRouter.swift */; };
 		E5B68D712246ECD600A0C257 /* RootRouterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B68D702246ECD600A0C257 /* RootRouterState.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E534DF6522486CCA00A56B2E /* SampleWebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWebServices.swift; sourceTree = "<group>"; };
+		E534DF6722486E8B00A56B2E /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		E5B68D412246E06700A0C257 /* CleanArchitectureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitectureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B68D442246E06700A0C257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5B68D492246E06700A0C257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		E5B68D612246E2BE00A0C257 /* LoginInputInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputInfo.swift; sourceTree = "<group>"; };
 		E5B68D632246E31A00A0C257 /* LoginRequestItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestItem.swift; sourceTree = "<group>"; };
 		E5B68D652246E62B00A0C257 /* LoginRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewModel.swift; sourceTree = "<group>"; };
-		E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoard.swift; sourceTree = "<group>"; };
 		E5B68D6A2246E8D900A0C257 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		E5B68D6E2246EBEF00A0C257 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		E5B68D702246ECD600A0C257 /* RootRouterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterState.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E534DF6422486CB800A56B2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E534DF6522486CCA00A56B2E /* SampleWebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E5B68D382246E06700A0C257 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		E5B68D432246E06700A0C257 /* CleanArchitectureExample */ = {
 			isa = PBXGroup;
 			children = (
+				E534DF6422486CB800A56B2E /* Services */,
 				E5B68D672246E65C00A0C257 /* Extensions */,
 				E5B68D562246E12A00A0C257 /* UseCase */,
 				E5B68D6C2246EBC500A0C257 /* Routers */,
@@ -126,9 +137,9 @@
 		E5B68D672246E65C00A0C257 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E5B68D682246E66B00A0C257 /* UIStoryBoard.swift */,
 				E5B68D6A2246E8D900A0C257 /* UILabel.swift */,
 				E5B68D772246FCE200A0C257 /* UIButton.swift */,
+				E534DF6722486E8B00A56B2E /* UIStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,11 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B68D6B2246E8D900A0C257 /* UILabel.swift in Sources */,
-				E5B68D692246E66B00A0C257 /* UIStoryBoard.swift in Sources */,
 				E5B68D5D2246E22200A0C257 /* LoginRequestPresenter.swift in Sources */,
 				E5B68D5B2246E20C00A0C257 /* LoginRequestInteractor.swift in Sources */,
 				E5B68D642246E31A00A0C257 /* LoginRequestItem.swift in Sources */,
+				E534DF6822486E8B00A56B2E /* UIStoryboard.swift in Sources */,
 				E5B68D782246FCE200A0C257 /* UIButton.swift in Sources */,
+				E534DF6622486CCA00A56B2E /* SampleWebServices.swift in Sources */,
 				E5B68D762246FCB000A0C257 /* ButtonConfig.swift in Sources */,
 				E5B68D5F2246E23F00A0C257 /* LoginRequestViewController.swift in Sources */,
 				E5B68D712246ECD600A0C257 /* RootRouterState.swift in Sources */,

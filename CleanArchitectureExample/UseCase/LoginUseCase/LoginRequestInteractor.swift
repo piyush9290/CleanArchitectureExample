@@ -29,7 +29,12 @@ final class LoginRequestInteractor: LoginRequestInteractorInput {
     }
     
     func didPressLogin(withUserInfo loginInfo: InputInfo) {
-        let isValid = loginInfo.email == "piyush@piyush.com" && loginInfo.password == "piyush"
-        item.loginCompletion?(isValid)
+        item.loginServices.login(using: loginInfo.email,
+                                 password: loginInfo.password,
+                                 completion: { [weak self] (_) in
+                                    self?.item.loginCompletion?(true)
+                                 }, failure: { [weak self] (_) in
+                                    self?.item.loginCompletion?(false)
+        })
     }
 }
